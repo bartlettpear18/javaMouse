@@ -1,7 +1,7 @@
 import java.awt.Robot;
 import java.util.Random;
 
-public class MouseMover {
+public class Main {
     public static void main (String[] args) {
         MouseSingleton tmp = MouseSingleton.getInstance();
         tmp.test();

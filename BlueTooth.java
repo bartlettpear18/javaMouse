@@ -1,4 +1,4 @@
-public class MouseBlue {
+public class BlueTooth {
     //sets up bluetooth connection with mobile app
     //recieves accelerometer values from app, outputs coordinates
 
