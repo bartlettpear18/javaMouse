@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46494C</color>
+    <color name="colorPrimaryDark">#007991</color>
+    <color name="colorAccent">#6E8894</color>
+
+    <color name="leftMouseButton">#007991</color>
+    <color name="leftMousePressed">#C5C3C6</color>
+
+    <color name="rightMouseButton">#022F40</color>
+    <color name="rightMousePressed">#C5C3C6</color>
+
+
+</resources>

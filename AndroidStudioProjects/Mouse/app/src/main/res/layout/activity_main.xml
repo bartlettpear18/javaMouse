@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bartlettpear18gmail.mouse.MainActivity"
+    android:background="#46494C" >
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/leftMouse"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#007991"
+        android:clickable="true"
+        android:onClick="leftClick" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/rightMouse"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#022F40"
+        android:clickable="true"
+        android:onClick="rightClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/app_name"
+        android:textColor="#C5C3C6"
+        android:id="@+id/sensorX"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@id/leftMouse"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/app_name"
+        android:textColor="#C5C3C6"
+        android:id="@+id/sensorY"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@id/sensorX"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/app_name"
+        android:textColor="#C5C3C6"
+        android:id="@+id/disX"
+        android:layout_gravity="left"
+        android:layout_below="@id/sensorY"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/app_name"
+        android:textColor="#C5C3C6"
+        android:id="@+id/disY"
+        android:layout_gravity="start"
+        android:layout_below="@id/disX"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+
+
+</RelativeLayout>
