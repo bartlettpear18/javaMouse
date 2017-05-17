@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_action_on_off.png",
+        "source": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\src\\main\\res\\drawable-ldpi\\ic_action_on_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_action_discover.png",
+        "source": "C:\\Users\\Joel.Bartlett18\\Desktop\\Code\\java\\mouseDroid\\Wifi Direct\\Direct Test\\app\\src\\main\\res\\drawable-ldpi\\ic_action_discover.png"
+    }
+]

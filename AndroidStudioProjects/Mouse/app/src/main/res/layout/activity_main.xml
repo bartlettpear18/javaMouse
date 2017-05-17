@@ -38,6 +38,21 @@
         android:clickable="true"
         android:onClick="rightClick" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datagramTest"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/disY"
+        android:background="#022F40"
+        android:clickable="true"
+        android:onClick="testClick"
+        android:text="Datagram Test" />
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
